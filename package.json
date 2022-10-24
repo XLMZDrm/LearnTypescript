@@ -6,7 +6,8 @@
   "author": "drmerveem <nsovipgl@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "build": "yarn tsc"
   },
   "devDependencies": {
     "@types/jest": "^29.2.0",
