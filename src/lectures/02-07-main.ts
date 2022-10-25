@@ -2,7 +2,7 @@ interface Student {
     id: number;
     name: string;
     age: number;
-    gender: string;
+    gender: 'male' | 'female';
 }
 const studentList: Student[] = [
     { id: 1, name: 'Alice', age: 11, gender: 'female' },
